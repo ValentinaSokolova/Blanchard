@@ -1,0 +1,749 @@
+@media (max-width:1700px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+
+
+@media (max-width: 1450px) {
+    .container {
+        max-width: 925px;
+    }
+
+    /*header*/
+    .header__content {
+        flex-wrap: wrap;
+    }
+
+    .header__nav {
+        margin-right: 0;
+        order: 2;
+    }
+
+    .header__btn {
+        margin-top: -10px;
+        order: 1;
+    }
+
+    .header__container {
+        padding-top: 32px;
+        padding-bottom: 25px;
+    }
+
+    .header__logo {
+        margin-bottom: 26px;
+        width: 188px;
+        background-image: url('../img/logo-1024.svg');
+    }
+
+    .header__search {
+        margin-top: -10px;
+    }
+
+    .nav__link {
+        padding: 0 1px;
+    }
+
+    .nav__list {
+        margin-right: 0;
+        gap: 94px;
+        flex-wrap: nowrap;
+    }
+
+
+    /*hero*/
+
+    .hero {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 0;
+        background-image: url("../img/birmingham-museums-trust-1024.png");
+    }
+
+    .hero__content {
+        padding-top: 100px;
+        padding-bottom: 101.5px;
+    }
+
+    .hero__descr {
+        margin-bottom: 133px;
+        max-width: 656px;
+    }
+
+    /*about*/
+    .about__descr {
+        max-width: 915px;
+    }
+
+    .about__content {
+        padding-bottom: 69px;
+        padding-top: 83.5px;
+    }
+
+    /*gallery*/
+    .gallery__form {
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-self: flex-start;
+        order: 1;
+    }
+
+    .gallery__content {
+        padding-top: 86px;
+    }
+
+    .gallery__title {
+        margin-bottom: 27.5px;
+    }
+
+    .gallery__list {
+        order:2;
+        flex-wrap: nowrap;
+    }
+
+    .gallery__item {
+        width: 275px;
+        height: 275px;
+    }
+
+    .gallery__show {
+        flex-direction: column;
+    }
+
+    /*catalog*/
+    .catalog__descr {
+        margin-bottom: 39.5px;
+        max-width: 960px;
+    }
+
+    .catalog__item {
+        flex-direction: column;
+    }
+
+    .catalog__item-img {
+        margin-bottom: 27px;
+        max-width: 925px;
+        max-height: 580px;
+    }
+
+    .catalog__item-content {
+        padding-left: 0;
+    }
+
+    .catalog__item-title {
+        margin-bottom: 4px;
+    }
+
+    .catalog__item-descr {
+        margin-bottom: 13px;
+    }
+
+    /*events*/
+    .events__item {
+        padding: 210px 30px 50px 33px;
+        max-width: 290px;
+        min-height: 650px;
+        max-height: 681px;
+        background-size: 288px 196px;
+    }
+
+    .events__list {
+        align-items: baseline;
+        gap: 27px;
+    }
+
+    .events__title-small {
+        margin-bottom: 7px;
+        max-width: 250px;
+        line-height: 32.68px;
+    }
+
+    .events__descr {
+        margin-bottom: 5px;
+        text-align: right;
+        align-self: flex-end;
+    }
+
+    .events__text {
+        margin-bottom: 28px;
+        max-width: 220px;
+    }
+
+    /*projects*/
+    .projects__descr {
+        margin-bottom: 19px;
+        max-width: 940px;
+    }
+
+    .projects__list {
+        gap: 27px;
+    }
+
+    /*contacts*/
+    .contacts__content {
+        gap: 25px;
+        flex-direction: column;
+    }
+
+    .contacts__location {
+        font-size: 14px;
+    }
+
+    .contacts__callback {
+        align-self: baseline;
+    }
+
+    .contacts__btn {
+        padding: 12.5px 42px;
+        margin-bottom: 5px;
+    }
+
+    .contacts__title-click {
+        margin-bottom: 6px;
+    }
+
+    .contacts__content {
+        padding-bottom: 42px;
+    }
+
+    /*footer*/
+    .footer__container {
+        padding-top: 41px;
+        padding-bottom: 41px;
+    }
+
+    .footer__logo {
+        height: 47px;
+        width: 174px;
+        background-repeat: no-repeat;
+        background-position: 1px 10px;
+    }
+
+    .footer__img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer__link {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .container {
+        max-width: 668px;
+    }
+
+    /*header*/
+    .nav__list {
+        gap: 42px;
+    }
+
+    /*hero*/
+    .hero {
+        background-image: url('../img/birmingham-museums-trust-768.png');
+    }
+
+    .hero__content {
+        padding-top: 86px;
+        padding-bottom: 85.5px;
+    }
+
+    .hero__descr {
+        margin-bottom: 132px;
+        max-width: 590px;
+    }
+
+    /*about*/
+
+    .about__descr {
+        max-width: 665px;
+    }
+
+    .about__content {
+        padding-bottom: 70px;
+    }
+
+    /*gallery*/
+    .gallery__list {
+        gap: 34px;
+    }
+
+    .gallery__item {
+        width: 200px;
+        height: 200px;
+    }
+
+    /*catalog*/
+
+    .catalog__descr {
+        max-width: 681px;
+    }
+
+    .catalog__item-img {
+        max-width: 668px;
+        max-height: 419px;
+    }
+
+    .catalog__item-descr {
+        margin-bottom: 4px;
+    }
+
+    /*events*/
+    .events__list {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .events__item {
+        padding: 213px 30px 50px 33px;
+        max-width: 668px;
+        max-height: 528px;
+        height: 100%;
+        min-height: 528px;
+    }
+
+    .events__title-small {
+        margin-bottom: 13px;
+        max-width: 490px;
+    }
+
+    .events__text {
+        margin-bottom: 60px;
+        max-width: 565px;
+    }
+
+    .events__item-1 {
+        background-image: url('../img/background-item-1-768.jpg');
+    }
+
+    .events__item-2 {
+        background-image: url("../img/background-item-2-768.png");
+    }
+
+    .events__item-3 {
+        background-image: url("../img/background-item-3-768.png");
+    }
+
+    .events__item {
+        background-size: 667px 199px;
+    }
+
+    /*projects*/
+
+    .projects {
+        margin-bottom: 80.5px;
+    }
+
+    .projects__descr {
+        margin-bottom: 27px;
+        max-width: 657px;
+    }
+
+    .projects__title-small {
+        margin-bottom: 29px;
+    }
+
+    .projects__list {
+        gap: 34px;
+        flex-wrap: nowrap;
+    }
+
+    .projects__link {
+        width: 317px;
+        height: 122px;
+        background-size: 317px 122px;
+    }
+
+    .projects__link-1 {
+        background-image: url('../img/freelands-foundation-768.svg');
+    }
+
+    .projects__link-2 {
+        background-image: url("../img/institute-for-contempory-art-768.svg");
+    }
+
+    /*contacts*/
+    .contacts__content {
+        gap: 23px;
+        padding-top: 34px;
+        padding-bottom: 43px;
+    }
+
+    .contacts__title {
+        margin-bottom: 3.5px;
+    }
+
+    .contacts__callback {
+        row-gap: 13px;
+        flex-wrap: wrap;
+    }
+
+    .contacts__input {
+        width: 324px;
+    }
+
+    .contacts__btn {
+        padding: 10.5px 29px;
+    }
+
+    .contacts__title-click {
+        margin-bottom: 7px;
+    }
+
+    /*footer*/
+    .footer__container {
+        padding-top: 40px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .container{
+     max-width: 600px;
+    }   
+
+    .nav__link {
+        white-space: nowrap;
+    }
+
+    .projects__list {
+        flex-wrap: wrap;
+    }
+
+    .header__nav {
+        overflow-x: scroll;
+    }
+
+    .catalog__item-img {
+        max-width: 500px;
+    }
+}
+
+@media (max-width:650px) {
+    .container {
+        max-width: 290px;
+    }
+
+    /*header*/
+    .header__logo {
+        margin-bottom: -7px;
+        width: 96.8px;
+        background-repeat: no-repeat;
+        background-image: url("../img/logo-320.svg");
+    }
+
+    .header__container {
+        padding-top: 15px;
+        padding-bottom: 6px;
+    }
+
+    .header__search {
+        width: 18px;
+        height: 18px;
+    }
+
+    .header__btn {
+        align-self: baseline;
+        margin-top: 6px;
+    }
+
+    .nav__link {
+        font-size: 12px;
+    }
+
+    .nav__list {
+        gap: 24.5px;
+    }
+
+
+    /*hero*/
+
+    .hero {
+        background-position: 0 -79px;
+        background-image: url("../img/birmingham-museums-trust-320.jpg");
+    }
+
+    .hero__title {
+        margin-bottom: 10px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .hero__content {
+        padding-top: 49px;
+        padding-bottom: 50.5px;
+        align-items: center;
+        max-width: 290px;
+    }
+
+    .hero__descr {
+        margin-bottom: 40px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.34px;
+        max-width: 250px;
+        text-align: center;
+    }
+
+    .hero__btn {
+        padding: 8.5px 16px 7.5px 19.5px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16.34px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    /*about*/
+    .about__content {
+        padding-top: 52.5px;
+        padding-bottom: 42px;
+    }
+
+    .about__descr {
+        font-size: 14px;
+        line-height: 28px;
+        max-width: 284px;
+    }
+
+    .about__title {
+        margin-bottom: 14px;
+    }
+
+    /*gallery*/
+    .gallery__content {
+        padding-top: 53px;
+        padding-bottom: 50px;
+    }
+
+    .gallery__title {
+        margin-bottom: 21.5px;
+    }
+
+    .gallery__list {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .gallery__item {
+        width: 290px;
+        height: 290px;
+    }
+
+    /*catalog*/
+
+    .catalog__content {
+        padding-bottom: 53px;
+        padding-top: 53px;
+    }
+
+    .catalog__title {
+        margin-bottom: 16px;
+    }
+
+    .catalog__item-img {
+        margin-bottom: 21px;
+        width: 290px;
+        height: 181px;
+    }
+
+    .catalog__descr {
+        margin-bottom: 29.5px;
+    }
+
+    .catalog__item-descr {
+        margin-bottom: 14px;
+    }
+
+    .catalog__list {
+        gap: 28px;
+    }
+
+    .catalog__item-title {
+        margin-bottom: 7px;
+        width: 280px;
+        line-height: 32.68px;
+    }
+
+    /*events*/
+
+    .events {
+        margin-bottom: 48px;
+    }
+
+    .events__title {
+        margin-bottom: 15px;
+    }
+
+    .events__item {
+        padding: 217px 15px 50px 22px;
+        background-size: 288px 199px;
+        max-height: 685px;
+    }
+
+    .events__item-1 {
+        background-image: url("../img/background-item-1-320.jpg");
+    }
+
+    .events__item-2 {
+        background-image: url("../img/background-item-2-320.png");
+    }
+
+    .events__item-3 {
+        background-image: url("../img/background-item-3-320.png");
+    }
+
+    .events__descr {
+        margin-bottom: 10px;
+    }
+
+    .events__title-small {
+        margin-bottom: 4px;
+    }
+
+    .events__text {
+        margin-bottom: 54px;
+    }
+
+    .events__link {
+        padding-left: 6px;
+    }
+
+    .events__list {
+        gap: 19px;
+    }
+
+    /*projects*/
+
+    .projects {
+        margin-bottom: 23.5px;
+    }
+
+    .projects__title {
+        margin-bottom: 15px;
+    }
+
+    .projects__title-small {
+        margin-bottom: 4px;
+        font-size: 18px;
+    }
+
+    .projects__descr {
+        margin-bottom: 21px;
+    }
+
+    .projects__list {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .projects__link {
+        width: 290px;
+        height: 100px;
+        background-size: 290px 100px;
+        background-position: 0px 6px;
+        background-repeat: no-repeat;
+    }
+
+    .projects__link-1 {
+        background-image: url('../img/freelands-foundation-320.svg');
+    }
+
+    .projects__link-2 {
+        background-image: url("../img/institute-for-contempory-art-320.svg");
+    }
+
+    /*contacts*/
+
+    .contacts__title {
+        margin-bottom: -4.5px;
+        font-size: 18px;
+    }
+
+    .contacts__content {
+        gap: 13px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+
+    .contacts {
+        border: none;
+    }
+
+    .contacts__input {
+        padding: 8px 9px 8px 23px;
+        height: 40.5px;
+        width: 290px;
+        border: 1px solid var(--dark-grey);
+    }
+
+    .contacts__callback {
+        row-gap: 20px;
+    }
+
+    .contacts__btn {
+        padding: 7.5px 34px;
+        margin-bottom: 7px;
+        width: 128px;
+        overflow: hidden;
+        height: 39px;
+        font-size: 12px;
+    }
+
+    .contacts__title-click {
+        margin-bottom: 7px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .contacts__img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contacts__list {
+        gap: 30px;
+    }
+
+
+    /*footer*/
+
+    .footer__list {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .footer__container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        row-gap: 10px;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .footer__link {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer__img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer__logo {
+        margin-right: unset;
+        width: 99px;
+        height: 32px;
+        align-self: center;
+        background-image: url("../img/logo-320.svg");
+    }
+}

@@ -436,6 +436,18 @@
         padding-right: 30px;
     }
 
+    .hero__content {
+        align-items: center;
+    }
+
+    .hero__btn {
+        padding: 8.5px 16px 7.5px 19.5px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16.34px;
+    }
+
+
     .hero__title {
         margin-bottom: 10px;
         font-size: 32px;
@@ -450,7 +462,7 @@
         font-size: 12px;
         font-weight: 400;
         line-height: 16.34px;
-
+        text-align: center;
     }
 
     .nav__link {
@@ -555,14 +567,6 @@
         text-align: center;
     }
 
-
-
-    .hero__btn {
-        padding: 8.5px 16px 7.5px 19.5px;
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16.34px;
-    }
 
     .section-title {
         font-size: 28px;
